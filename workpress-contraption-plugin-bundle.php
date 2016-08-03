@@ -148,8 +148,32 @@ function workpress_register_required_plugins() {
   ),
 
   array(
-   'name' => 'WP Notification Center',
-   'slug' => 'wp-notification-center',
+   'name'     => 'WP Notification Center',
+   'slug'     => 'wp-notification-center',
+   'required' => false,
+  ),
+
+  array(
+   'name'      => 'Lightweight Grid Columns',
+   'slug'      => 'lightweight-grid-columns',
+   'required'  => false,
+  ),
+
+  array(
+   'name'      => 'Simple CSS',
+   'slug'      => 'simple-css',
+   'required'  => false,
+  ),
+
+  array(
+   'name'      => 'WP Show Posts',
+   'slug'      => 'wp-show-posts',
+   'required'  => false,
+  ),
+
+  array(
+   'name'      => 'Lightweight Social Icons',
+   'slug'      => 'lightweight-social-icons',
    'required'  => false,
   ),
 
@@ -279,11 +303,11 @@ function workpress_register_required_plugins() {
   // By setting 'is_callable' to either a function from that plugin or a class method
   // `array( 'class', 'method' )` similar to how you hook in to actions and filters, TGMPA can still
   // recognize the plugin as being installed.
-  array(
-   'name'        => 'WordPress SEO by Yoast',
-   'slug'        => 'wordpress-seo',
-   'is_callable' => 'wpseo_init',
-  ),
+//  array(
+//   'name'        => 'WordPress SEO by Yoast',
+//   'slug'        => 'wordpress-seo',
+//   'is_callable' => 'wpseo_init',
+//  ),
 
  );
 
