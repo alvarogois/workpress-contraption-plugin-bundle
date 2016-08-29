@@ -286,12 +286,6 @@ function workpress_register_required_plugins() {
   ),
 
   array(
-   'name' => 'Shiny Updates',
-   'slug' => 'shiny-updates',
-   'required'  => false,
-  ),
-
-  array(
    'name' => 'The Hack Repair Guy\'s Plugin Archiver',
    'slug' => 'hackrepair-plugin-archiver',
    'required'  => false,
