@@ -202,6 +202,12 @@ function workpress_register_required_plugins() {
   ),
 
   array(
+   'name' => 'WP Disable',
+   'slug' => 'wp-disable',
+   'required'  => false,
+  ),
+
+  array(
    'name' => 'Wordfence Security',
    'slug' => 'wordfence',
    'required'  => false,
@@ -246,12 +252,6 @@ function workpress_register_required_plugins() {
   array(
    'name' => 'Enable Media Replace',
    'slug' => 'enable-media-replace',
-   'required'  => false,
-  ),
-
-  array(
-   'name' => 'WP Performance Score Booster',
-   'slug' => 'wp-performance-score-booster',
    'required'  => false,
   ),
 
