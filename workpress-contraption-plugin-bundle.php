@@ -16,7 +16,7 @@
  * Plugin Name:       WorkPress Contraption
  * Plugin URI:        http://workpress.pt
  * Description:       Install and activate a bundle of selected plugins.
- * Version:           1.0.0
+ * Version:           1.0.2
  * Author:            Álvaro Góis
  * Author URI:        http://alvarogois.ovni.org
  * License:           GPL-2.0+
@@ -122,18 +122,12 @@ function workpress_register_required_plugins() {
    'required'  => true,
   ),
 
-  // This is an example of how to include a plugin from a GitHub repository in your theme.
-  // This presumes that the plugin code is based in the root of the GitHub repository
-  // and not in a subdirectory ('/src') of the repository.
   array(
    'name'    => 'WP Sync DB',
    'slug'    => 'wp-sync-db',
    'source'  => 'https://github.com/wp-sync-db/wp-sync-db/archive/master.zip',
   ),
 
-  // This is an example of how to include a plugin from a GitHub repository in your theme.
-  // This presumes that the plugin code is based in the root of the GitHub repository
-  // and not in a subdirectory ('/src') of the repository.
   array(
    'name'   => 'WP Sync DB Media Files',
    'slug'   => 'wp-sync-db-media-files',
@@ -192,6 +186,12 @@ function workpress_register_required_plugins() {
   array(
    'name' => 'WP Fastest Cache',
    'slug' => 'wp-fastest-cache',
+   'required'  => false,
+  ),
+
+  array(
+   'name' => 'Breeze',
+   'slug' => 'breeze',
    'required'  => false,
   ),
 
@@ -288,6 +288,36 @@ function workpress_register_required_plugins() {
   array(
    'name' => 'The Hack Repair Guy\'s Plugin Archiver',
    'slug' => 'hackrepair-plugin-archiver',
+   'required'  => false,
+  ),
+
+  array(
+   'name' => 'Customizer Export/Import',
+   'slug' => 'customizer-export-import',
+   'required'  => false,
+  ),
+
+  array(
+   'name' => 'MP Customizer Backups',
+   'slug' => 'mp-customizer-backups',
+   'required'  => false,
+  ),
+
+  array(
+   'name' => 'Post Type Switcher',
+   'slug' => 'post-type-switcher',
+   'required'  => false,
+  ),
+
+  array(
+   'name' => 'WP Term Order',
+   'slug' => 'wp-term-order',
+   'required'  => false,
+  ),
+
+  array(
+   'name' => 'Easy Theme and Plugin Upgrades',
+   'slug' => 'easy-theme-and-plugin-upgrades/',
    'required'  => false,
   ),
 
